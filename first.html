@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Green Future - Renewable Energy Awareness</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">🌱 GreenFuture</div>
+
+<ul>
+<li><a href="#solar">Solar</a></li>
+<li><a href="#wind">Wind</a></li>
+<li><a href="#innovations">Innovations</a></li>
+<li><a href="#stats">Statistics</a></li>
+<li><a href="#quiz">Quiz</a></li>
+</ul>
+</nav>
+
+<header class="hero">
+<div class="hero-content">
+<h1>Powering Tomorrow with Renewable Energy</h1>
+
+<p>
+Learn how solar, wind and emerging technologies
+are transforming our planet for a sustainable future.
+</p>
+
+<button onclick="scrollToSection()">Explore Now</button>
+</div>
+</header>
+
+<section id="solar" class="card-section">
+<h2>☀️ Solar Energy</h2>
+
+<div class="card">
+<p>
+Solar energy captures sunlight using photovoltaic
+(PV) panels and converts it into electricity.
+</p>
+
+<h3>Advantages</h3>
+
+<ul>
+<li>Zero emissions during operation</li>
+<li>Low maintenance costs</li>
+<li>Reduces electricity bills</li>
+<li>Abundant and renewable source</li>
+</ul>
+</div>
+</section>
+
+<section id="wind" class="card-section">
+<h2>🌬️ Wind Energy</h2>
+
+<div class="card">
+<p>
+Wind turbines convert kinetic energy from moving air
+into electrical power.
+</p>
+
+<h3>Benefits</h3>
+
+<ul>
+<li>Clean and renewable</li>
+<li>Cost-effective at large scale</li>
+<li>Creates green jobs</li>
+<li>Reduces fossil fuel dependency</li>
+</ul>
+</div>
+</section>
+
+<section id="innovations">
+
+<h2>🚀 Latest Renewable Innovations</h2>
+
+<div class="innovation-grid">
+
+<div class="innovation-card">
+<h3>Perovskite Solar Cells</h3>
+<p>High efficiency and lower manufacturing costs.</p>
+</div>
+
+<div class="innovation-card">
+<h3>Floating Solar Farms</h3>
+<p>Installed on reservoirs to save land space.</p>
+</div>
+
+<div class="innovation-card">
+<h3>Green Hydrogen</h3>
+<p>Produced using renewable electricity.</p>
+</div>
+
+<div class="innovation-card">
+<h3>Smart Grids</h3>
+<p>AI-driven power management systems.</p>
+</div>
+
+</div>
+</section>
+
+<section id="stats">
+
+<h2>📊 Renewable Energy Impact</h2>
+
+<div class="stats-container">
+
+<div class="stat">
+<h3 id="energyCounter">0</h3>
+<p>GW Renewable Capacity</p>
+</div>
+
+<div class="stat">
+<h3 id="co2Counter">0</h3>
+<p>Million Tons CO₂ Reduced</p>
+</div>
+
+<div class="stat">
+<h3 id="homesCounter">0</h3>
+<p>Homes Powered</p>
+</div>
+
+</div>
+</section>
+
+<section class="calculator">
+
+<h2>🌳 Carbon Footprint Calculator</h2>
+
+<input
+type="number"
+id="electricity"
+placeholder="Monthly Electricity Usage (kWh)"
+>
+
+<button onclick="calculateFootprint()">
+Calculate
+</button>
+
+<h3 id="result"></h3>
+
+</section>
+
+<section id="quiz">
+
+<h2>🧠 Renewable Energy Quiz</h2>
+
+<div class="quiz-box">
+
+<p id="question">
+Which renewable source uses sunlight?
+</p>
+
+<button onclick="checkAnswer('Solar')">
+Solar
+</button>
+
+<button onclick="checkAnswer('Coal')">
+Coal
+</button>
+
+<button onclick="checkAnswer('Oil')">
+Oil
+</button>
+
+<p id="quiz-result"></p>
+
+</div>
+
+</section>
+
+<section class="tips">
+
+<h2>💡 Daily Energy Saving Tips</h2>
+
+<div class="tips-grid">
+
+<div class="tip">
+Turn off unused lights.
+</div>
+
+<div class="tip">
+Use LED bulbs.
+</div>
+
+<div class="tip">
+Install rooftop solar.
+</div>
+
+<div class="tip">
+Use public transport.
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Together for a Greener Future 🌎</h3>
+
+<p>Renewable Energy Awareness Project</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
