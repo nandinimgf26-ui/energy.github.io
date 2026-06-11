@@ -1,0 +1,197 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5fff6;
+color:#333;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#1b5e20;
+color:white;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:500;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.4),
+rgba(0,0,0,.4)),
+url("https://images.unsplash.com/photo-1509391366360-2e959784a276");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero-content h1{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:1.2rem;
+max-width:700px;
+margin:auto;
+}
+
+.hero button{
+margin-top:25px;
+padding:12px 25px;
+border:none;
+background:#4caf50;
+color:white;
+font-size:1rem;
+border-radius:8px;
+cursor:pointer;
+}
+
+.card-section{
+padding:80px 10%;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+margin-top:20px;
+}
+
+#innovations{
+padding:80px 10%;
+background:#e8f5e9;
+}
+
+.innovation-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.innovation-card{
+background:white;
+padding:25px;
+border-radius:15px;
+transition:.3s;
+}
+
+.innovation-card:hover{
+transform:translateY(-10px);
+}
+
+#stats{
+padding:80px 10%;
+}
+
+.stats-container{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.stat{
+background:white;
+padding:25px;
+border-radius:15px;
+width:250px;
+text-align:center;
+box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.stat h3{
+font-size:2.5rem;
+color:#2e7d32;
+}
+
+.calculator{
+padding:80px 10%;
+text-align:center;
+}
+
+.calculator input{
+padding:12px;
+width:300px;
+margin:15px;
+border-radius:10px;
+border:1px solid #ddd;
+}
+
+.calculator button{
+padding:12px 25px;
+background:#4caf50;
+border:none;
+color:white;
+border-radius:10px;
+}
+
+#quiz{
+padding:80px 10%;
+background:#e8f5e9;
+}
+
+.quiz-box{
+text-align:center;
+}
+
+.quiz-box button{
+padding:10px 20px;
+margin:10px;
+border:none;
+background:#43a047;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+.tips{
+padding:80px 10%;
+}
+
+.tips-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.tip{
+background:white;
+padding:25px;
+text-align:center;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+footer{
+background:#1b5e20;
+color:white;
+padding:40px;
+text-align:center;
+}
